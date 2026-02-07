@@ -57,7 +57,7 @@
     <commons-configuration2.version>2.12.0</commons-configuration2.version>
     <commons-daemon.version>1.4.0</commons-daemon.version>
     <commons-fileupload.version>1.6.0</commons-fileupload.version>
-    <commons-io.version>2.18.0</commons-io.version>
+    <commons-io.version>2.21.0</commons-io.version>
     <commons-lang3.version>3.18.0</commons-lang3.version>
     <commons-math3.version>3.6.1</commons-math3.version>
     <commons-net.version>3.11.1</commons-net.version>
@@ -162,7 +162,7 @@
     <maven-site-plugin.version>3.21.0</maven-site-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
     <maven-surefire-plugin.argLine>-Xmx8192m -XX:+HeapDumpOnOutOfMemoryError</maven-surefire-plugin.argLine>
-    <maven-surefire-plugin.argLineAccessArgs />
+    <maven-surefire-plugin.argLineAccessArgs/>
     <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
     <maven-surefire-report-plugin.version>${maven-surefire-plugin.version}</maven-surefire-report-plugin.version>
     <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
@@ -172,7 +172,7 @@
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
     <metainf-services.version>1.11</metainf-services.version>
     <mockito.version>4.11.0</mockito.version>
-    <native.lib.tmp.dir />
+    <native.lib.tmp.dir/>
     <!-- Use netty version known to work with grpc-netty. See table: -->
     <!-- https://github.com/grpc/grpc-java/blob/master/SECURITY.md#netty -->
     <netty.version>4.1.119.Final</netty.version>
@@ -2322,8 +2322,8 @@
             <phase>validate</phase>
             <configuration>
               <target>
-                <mkdir dir="${test.build.dir}" />
-                <mkdir dir="${test.build.data}" />
+                <mkdir dir="${test.build.dir}"/>
+                <mkdir dir="${test.build.data}"/>
               </target>
             </configuration>
           </execution>
