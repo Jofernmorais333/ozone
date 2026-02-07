@@ -162,7 +162,7 @@
     <maven-site-plugin.version>3.21.0</maven-site-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
     <maven-surefire-plugin.argLine>-Xmx8192m -XX:+HeapDumpOnOutOfMemoryError</maven-surefire-plugin.argLine>
-    <maven-surefire-plugin.argLineAccessArgs />
+    <maven-surefire-plugin.argLineAccessArgs/>
     <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
     <maven-surefire-report-plugin.version>${maven-surefire-plugin.version}</maven-surefire-report-plugin.version>
     <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
@@ -172,7 +172,7 @@
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
     <metainf-services.version>1.11</metainf-services.version>
     <mockito.version>4.11.0</mockito.version>
-    <native.lib.tmp.dir />
+    <native.lib.tmp.dir/>
     <!-- Use netty version known to work with grpc-netty. See table: -->
     <!-- https://github.com/grpc/grpc-java/blob/master/SECURITY.md#netty -->
     <netty.version>4.1.119.Final</netty.version>
@@ -203,7 +203,7 @@
     <ratis-thirdparty.netty.version>4.1.119.Final</ratis-thirdparty.netty.version>
     <ratis-thirdparty.protobuf.version>3.25.5</ratis-thirdparty.protobuf.version>
     <ratis.thirdparty.version>1.0.9</ratis.thirdparty.version>
-    <ratis.version>3.2.0</ratis.version>
+    <ratis.version>3.2.1</ratis.version>
     <re2j.version>1.7</re2j.version>
     <reflections.version>0.10.2</reflections.version>
     <reload4j.version>1.2.26</reload4j.version>
@@ -2322,8 +2322,8 @@
             <phase>validate</phase>
             <configuration>
               <target>
-                <mkdir dir="${test.build.dir}" />
-                <mkdir dir="${test.build.data}" />
+                <mkdir dir="${test.build.dir}"/>
+                <mkdir dir="${test.build.data}"/>
               </target>
             </configuration>
           </execution>
